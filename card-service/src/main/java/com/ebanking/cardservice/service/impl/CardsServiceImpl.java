@@ -17,7 +17,6 @@ import java.util.Optional;
 import java.util.Random;
 
 @Service
-@AllArgsConstructor
 @RequiredArgsConstructor
 public class CardsServiceImpl implements CardsService {
 

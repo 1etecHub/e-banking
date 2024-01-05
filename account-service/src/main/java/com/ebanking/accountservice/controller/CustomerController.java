@@ -5,7 +5,7 @@ import com.ebanking.accountservice.dto.CustomerDetailsDto;
 import com.ebanking.accountservice.service.CustomerService;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
-import org.apache.http.HttpStatus;
+import org.apache.hc.core5.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

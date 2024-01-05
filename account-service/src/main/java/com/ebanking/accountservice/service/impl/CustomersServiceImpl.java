@@ -16,11 +16,12 @@ import com.ebanking.accountservice.service.CustomerService;
 import com.ebanking.accountservice.service.client.CardsFeignClient;
 import com.ebanking.accountservice.service.client.LoansFeignClient;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 @Service
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class CustomersServiceImpl implements CustomerService {
 
     private AccountsRepository accountsRepository;
