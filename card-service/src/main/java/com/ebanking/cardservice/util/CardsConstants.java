@@ -1,4 +1,4 @@
-package com.ebanking.cardservice.constants;
+package com.ebanking.cardservice.util;
 
 public final class CardsConstants {
 
